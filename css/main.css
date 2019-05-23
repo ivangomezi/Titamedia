@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  margin: 0px;
+}
+
+header {
+  margin: auto;
+  padding: 10px 0px;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+nav {
+  margin: auto;
+  overflow: hidden;
+}
+
+nav a {
+  display: inline-flex;
+  color: #222;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+nav a:hover {
+  color: #11977e;
+}
+
+nav .logo-img {
+  margin-right: 25%;
+}
+nav img {
+  width: 100px;
+}
+nav .icon {
+  display: none;
+}
+
+
+/*SECTION*/
+section {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/*Contenedor de img en el slide*/
+section .box-slide {
+  width: 100%;
+}
+
+section .box-slide img {
+  width: 100%;
+}
+
+/*Contenedor de contenido, texto y img*/
+section .box-content {
+  margin-top: 50px;
+  justify-content: center;
+  display: inline-flex;
+  font-family: 'Raleway', sans-serif;
+}
+
+section .box-content .box-content-text { /*Contenido de texto*/
+  width: 600px;
+  color: #222;
+}
+section .box-content .box-content-text .divi {
+  margin: auto;
+  width: 40%;
+  height: 1px;
+  background: #11977e;
+}
+section .box-content .box-content-text .row-t {
+  padding: 20px 0px;
+  color: #8a8a8a;
+}
+section .box-content .box-content-text a {
+  color: #7fc7b9;
+}
+
+section .box-content .box-content-img { /*Contenido multimedia*/
+  padding: 0px 20px;
+  width: 300px;
+}
+section .box-content .box-content-img img {
+  width: 100%;
+}
